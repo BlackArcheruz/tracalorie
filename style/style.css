@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Ubuntu', sans-serif;
+}
+*::selection{
+    width: 0;
+    height: 0;
+}
+button{
+    border: none;
+    background-color: transparent;
+    outline: none;
+    cursor: pointer;
+}
+a{
+    text-decoration: none;
+}
+header{
+    background-color: rgba(0, 37, 204, 0.74);
+    padding: 1.5rem 0;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+nav > h1{
+    text-align: center;
+    color: #fff;
+}
+.container{
+    max-width: 85%;
+    margin: auto;
+}
+.box{
+    box-shadow: 5px 11px 20px -9px rgba(0,0,0,0.68);
+    padding: 1rem;
+    border: 1px solid rgb(197, 197, 197);
+    margin: 2rem 0;
+}
+.box form h1{
+    font-weight: lighter;
+    color: rgba(0, 0, 0, 0.50);
+    font-size: x-large;
+}
+.justify-between{
+    display: flex;
+    justify-content: space-between;
+}
+.justify-between > div{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem 0;
+}
+.justify-center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.justify-center h1{
+    color: rgba(0,0,0,0.50);
+    font-weight: lighter;
+}
+.medium span{
+    font-size: large;
+}
+.medium{
+    font-size: large;
+    color: rgba(0,0,0,0.50);
+    font-weight: lighter;
+}
+label{
+    color:rgba(0,0,0,0.50);
+    margin: .5rem 0;
+}
+input{
+    border: none;
+    outline: none;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.50);
+    width: 95%;
+    border-radius: 0;
+    padding: .5rem 0;
+}
+input:focus{
+    border-bottom: 2px solid rgb(79, 190, 255);
+    transition: ease-in-out border-bottom 200ms;
+}
+.btn{
+    padding: .5rem .7rem;
+    border: none;
+    outline: none;
+    font-size: medium;
+    border-radius: 0;
+    cursor: pointer;
+    box-shadow: 5px 11px 50px -9px rgba(0,0,0,0.68);
+    -webkit-box-shadow: 5px 11px 50px -9px rgba(0,0,0,0.68);
+    -moz-box-shadow: 5px 11px 50px -9px rgba(0,0,0,0.68);
+}
+.primary{
+    background-color: rgb(79, 190, 255);
+    color: #fff;
+}
+.primary:hover{
+    background-color: rgb(255, 255, 255);
+    color: rgb(79, 190, 255);
+    transition: ease-in-out background-color 200ms;
+}
+.success{
+    background-color: rgb(0, 109, 172);
+    color: #fff;
+    font-weight: lighter;
+}
+.success:hover{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 109, 172);
+    transition: ease-in-out background-color 200ms;
+}
+.orange{
+    background-color: rgb(255, 173, 79);
+    color: #fff;
+}
+.orange:hover{
+    background-color: rgb(255, 255, 255);
+    color: rgb(255, 173, 79);
+    transition: ease-in-out background-color 200ms;
+}
+.gray{
+    background-color: rgb(116, 116, 116);
+    color: #fff;
+    font-weight: lighter;
+}
+.gray:hover{
+    background-color: rgb(255, 255, 255);
+    color: rgb(116, 116, 116);
+    transition: ease-in-out background-color 200ms;
+}
+.danger{
+    background-color: rgb(228, 43, 43);
+    color: #fff;
+    font-weight: lighter;
+}
+.danger:hover{
+    background-color: #fff;
+    color: rgb(228, 43, 43);
+    transition: ease-in-out background-color 200ms;
+}
+.mt-1{
+    margin-top: .4rem;
+}
